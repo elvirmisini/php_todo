@@ -64,6 +64,11 @@ if(isset($_GET['update_message'])){
 
     echo "<h6>".$_GET['update_message']."</h6>";
 }
+?><?php
+if(isset($_GET['deleted_student'])){
+
+    echo "<h6>".$_GET['deleted_student']."</h6>";
+}
 ?>
 <form action="insert_data.php" method="post">
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
